@@ -78,6 +78,6 @@
 "..\obj\fontupd.o"
 "..\obj\framewindlg.o"
 --strict --scatter "..\OBJ\MALLOC.sct"
---summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list ".\MALLOC.map" -o ..\OBJ\MALLOC.axf
